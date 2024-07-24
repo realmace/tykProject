@@ -1,0 +1,23 @@
+{
+    "name": "newsapi",
+    "api_id": "1",
+    "use_keyless": true,
+    "version_data": {
+        "not_versioned": true,
+        "versions": {
+            "Default": {
+                "name": "Default",
+                "use_extended_paths": true
+            }
+        }
+    },
+    "definition": {
+        "location": "header",
+        "key": "cc7ad4bdddb94a5a963e604a7b2b85cb"
+    },
+    "proxy": {
+        "listen_path": "/newsapi/",
+        "target_url": "https://newsapi.org/v2/",
+        "strip_listen_path": true
+    }
+}
