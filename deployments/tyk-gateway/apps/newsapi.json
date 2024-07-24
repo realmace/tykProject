@@ -13,7 +13,10 @@
     },
     "definition": {
         "location": "header",
-        "key": "cc7ad4bdddb94a5a963e604a7b2b85cb"
+        "key": "cc7ad4bdddb94a5a963e604a7b2b85cb",
+        "rate_limit": {
+            "per": 60,
+            "rate": 100
     },
     "proxy": {
         "listen_path": "/newsapi/",
