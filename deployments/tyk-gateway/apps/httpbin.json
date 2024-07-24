@@ -11,6 +11,11 @@
             }
         }
     },
+    "definition": {
+        "rate_limit": {
+            "per": 60,
+            "rate": 100
+    },
     "proxy": {
         "listen_path": "/httpbin/",
         "target_url": "http://host.docker.internal:80",
