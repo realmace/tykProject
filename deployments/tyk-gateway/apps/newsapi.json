@@ -11,6 +11,9 @@
             }
         }
     },
+    "auth": {
+        "auth_header_name": "Authorization"
+    },
     "definition": {
         "location": "header",
         "key": "cc7ad4bdddb94a5a963e604a7b2b85cb",
