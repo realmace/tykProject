@@ -11,6 +11,9 @@
             }
         }
     },
+    "auth": {
+        "auth_header_name": "Authorization"
+    },
     "definition": {
         "rate_limit": {
             "per": 60,
