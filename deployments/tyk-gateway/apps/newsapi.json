@@ -11,7 +11,6 @@
             }
         }
     },
-    "use_basic_auth": true,
     "rate_limit": {
         "rate": 1000,
         "per": 60
