@@ -2,7 +2,7 @@
     "name": "newsapi",
     "api_id": "1",
     "org_id": "1",
-    "use_keyless": true,
+    "use_basic_auth": true,
     "version_data": {
         "not_versioned": true,
         "versions": {
