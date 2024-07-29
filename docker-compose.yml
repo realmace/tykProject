@@ -72,6 +72,13 @@ services:
       - grafana-data:/var/lib/grafana
     networks:
       - tyk
+
+  httpbin:
+    image: kennethreitz/httpbin
+    ports:
+      - 80:80
+    networks:
+      - tyk
       
 
 volumes:
